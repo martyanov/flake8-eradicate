@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flake8-eradicate"
-version = "1.4.0"
+version = "1.4.1"
 description = "Flake8 plugin to find commented out code"
 
 license = "MIT"
@@ -36,12 +36,11 @@ classifiers = [
 "Funding" = "https://opencollective.com/wemake-python-styleguide"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.9"
 
-flake8 = ">=3.5,<6"
+flake8 = ">=3.5,<7"
 eradicate = "^2.0"
 attrs = "*"
-importlib-metadata = { version = "*", python = "<3.8" }
 
 [tool.poetry.group.test.dependencies]
 pytest-cov = "^3.0"
